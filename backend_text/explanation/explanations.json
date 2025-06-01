@@ -1,0 +1,42 @@
+{
+  "covid 19 causes death to elderly people": {
+    "label": "real",
+    "explanation": "Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. NCHS Data Brief No. 446, October 2022",
+    "source": "https://www.cdc.gov/nchs/products/databriefs/db446.htm"
+  },
+  "males have xx chromosomes": {
+    "label": "fake",
+    "explanation": "Our only agenda is to publish the truth so you can be an informed participant in democracy. We need your help. More Info This microscope image shows the 46 human chromosomes, blue, with telomeres appearing as white pinpoints. (AP) People who have one of several well-documented medical conditions do not have only XX or XY chromosomes, which typically correspond with female and male sexes, respectively. Those conditions include Klinefelter Syndrome (XXY), Turner Syndrome (missing or partial X), Triple X Syndrome (XXX) and Jacob’s Syndrome (XYY).",
+    "source": "https://www.politifact.com/factchecks/2025/feb/21/nancy-mace/rep-nancy-mace-is-wrong-not-all-people-are-born-wi/"
+  },
+  "woemn have 45 chromosomes": {
+    "label": "real",
+    "explanation": "Turner syndrome, a condition that affects only females, results when one of the X chromosomes (sex chromosomes) is missing or partially missing. Turner syndrome can cause a variety of medical and developmental problems, including short height, failure of the ovaries to develop and heart defects. Turner syndrome may be diagnosed before birth (prenatally), during infancy or in early childhood. Occasionally, in females with mild signs and symptoms of Turner syndrome, the diagnosis is delayed until the teen or young adult years. Girls and women with Turner syndrome need ongoing medical care from a variety of specialists. Regular checkups and appropriate care can help most girls and women lead healthy, independent lives. Signs and symptoms of Turner syndrome may vary among girls and women with the disorder. For some girls, the presence of Turner syndrome may not be readily apparent, but in other girls, several physical features are apparent early. Signs and symptoms can be subtle, developing slowly over time, or significant, such as heart defects. Turner syndrome may be suspected prenatally based on prenatal cell-free DNA screening — a method to screen for certain chromosomal abnormalities in a developing baby using a blood sample from the mother — or prenatal ultrasound. Prenatal ultrasound of a baby with Turner syndrome may show:",
+    "source": "https://www.mayoclinic.org/diseases-conditions/turner-syndrome/symptoms-causes/syc-20360782"
+  },
+  "normal human beings who aren't sick have 55 chromosomes": {
+    "label": "real",
+    "explanation": "Alzheimer's disease is the most common cause of dementia. Alzheimer's disease is the biological process that begins with the appearance of a buildup of proteins in the form of amyloid plaques and neurofibrillary tangles in the brain. This causes brain cells to die over time and the brain to shrink. About 6.9 million people in the United States age 65 and older live with Alzheimer's disease. Among them, more than 70% are age 75 and older. Of the more than 55 million people in the world with dementia, 60% to 70% are estimated to have Alzheimer's disease. Early symptoms of Alzheimer's disease include forgetting recent events or conversations. Over time, Alzheimer's disease leads to serious memory loss and affects a person's ability to do everyday tasks. There is no cure for Alzheimer's disease. In advanced stages, loss of brain function can cause dehydration, poor nutrition or infection. These complications can result in death. But medicines may improve symptoms or slow the decline in thinking. Programs and services can help support people with the disease and their caregivers.",
+    "source": "https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/symptoms-causes/syc-20350447"
+  },
+  "Whales can walk on land.": {
+    "explanation": "No trusted sources found to support this claim, and no contradicting evidence was found either.",
+    "source": "N/A"
+  },
+  "lebanon is located in europe": {
+    "explanation": "No trusted sources found to support this claim, and no contradicting evidence was found either.",
+    "source": "N/A"
+  },
+  "covid 19 causes death for elderly people": {
+    "explanation": "This claim appears in the title of a trusted article.",
+    "source": "https://www.cnn.com/2024/02/08/health/aging-discrimation-kff-partner-wellness"
+  },
+  "covid 19 causes death": {
+    "explanation": "In the context of WHO's statistical reporting of COVID-19 data, it is important to note that only confirmed cases are included in case and death counts. In guidance updated on 22 July 2023; there are two alternative definitions for 'Confirmed case of SARS-CoV-2 infection' in international surveillance reporting, although some departures may exist due to local adaptations:",
+    "source": "https://data.who.int/dashboards/covid19/deaths"
+  },
+  "covid 19 causes death to babies": {
+    "explanation": "This claim is not supported by any trusted sources, and no contradicting article could be found either. Based on scientific consensus or lack of credible information, this statement is likely false or misleading.",
+    "source": "N/A"
+  }
+}

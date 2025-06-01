@@ -1,0 +1,12 @@
+venv_img/
+venv_text/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.pth
+*.pkl
+backend_text/data/dataSet_EN.csv
+backend_text/data/dataSet_EN_cleaned.csv
+backend_text/distilBert_model/saved_model/model.safetensors
