@@ -3,7 +3,6 @@
 **Gerçek mi, sahte mi?**  
 Görüntü ve metin tabanlı içeriklerin doğruluğunu yapay zeka ile analiz eden web uygulaması.
 
-
 ---
 
 ## 🚀 Özellikler
@@ -12,7 +11,7 @@ Görüntü ve metin tabanlı içeriklerin doğruluğunu yapay zeka ile analiz ed
 - ✍️ Metin içerikler için sahte haber tahmini (NLP + Wikipedia + Google destekli)
 - 🧪 Ayrıntılı model analizi ve güven oranı
 - 🌐 Modern kullanıcı arayüzü
-- 🧰 Flask + PyTorch + Scikit-learn + Transformers destekli
+- 🧠 Flask + PyTorch + Scikit-learn + Transformers destekli
 
 ---
 
@@ -30,6 +29,8 @@ FakeDetectAI/
 ├── assets/                → Logo, stil, ikon vb.
 ├── requirements_img.txt   → Görsel analiz ortamı paketleri
 ├── requirements_text.txt  → Metin analiz ortamı paketleri
+├── .gitignore             → Takip dışı bırakılan dosyalar ve dizinler
+├── .gitattributes         → Git LFS ile takip edilen dosya uzantıları
 └── README.md              → Bu dosya
 ```
 
@@ -51,7 +52,15 @@ conda activate venv_text
 pip install -r requirements_text.txt
 ```
 
-### ️2. Flask sunucularını başlat:
+### ️2. Git LFS kurulumu (ilk kez yapılır)
+
+```bash
+git lfs install
+```
+
+> Büyük dosyalar (modeller) Git LFS ile saklandığı için bu adım gereklidir.
+
+### ️3. Flask sunucularını başlat:
 
 ```bash
 # Görsel analiz servisi
@@ -63,7 +72,7 @@ cd backend_text
 python predict.py
 ```
 
-### ️3. HTML arayüzünü çalıştır:
+### ️4. HTML arayüzünü çalıştır:
 
 ```bash
 cd pages
@@ -103,6 +112,7 @@ Kaynak: Wikipedia, Google Search
 - Scikit-learn
 - HuggingFace Transformers
 - BeautifulSoup, Wikipedia API, Googlesearch
+- Git Large File Storage (LFS)
 
 ---
 
@@ -132,6 +142,12 @@ Kaynak: Wikipedia, Google Search
 ## ⚠️ Uyarı
 
 > Bu sistem %100 doğruluk garantisi vermez. Yalnızca istatistiksel ve içerik temelli bir tahmin sunar. Nihai değerlendirme için insan kontrolü tavsiye edilir.
+> 
+> Büyük boyutlu model dosyaları Git LFS ile yönetilmektedir. Reponun doğru klonlanması için aşağıdaki komut mutlaka çalıştırılmalıdır:
+>
+> ```bash
+> git lfs install
+> ```
 
 ---
 
