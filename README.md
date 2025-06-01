@@ -20,7 +20,7 @@ Görüntü ve metin tabanlı içeriklerin doğruluğunu yapay zeka ile analiz ed
 ```
 FakeDetectAI/
 ├── backend_img/           → Görsel analiz için Flask API (app.py)
-│   └── model/             → Eğitilmiş görsel modeller (.pth / .pkl)
+│   └── models/             → Eğitilmiş görsel modeller (.pth / .pkl)
 ├── backend_text/          → Metin analiz için Flask API (predict.py)
 │   └── distilBert_model/  → Eğitilmiş DistilBERT metin modeli
 ├── pages/                 → Ortak HTML, CSS, JS dosyaları
