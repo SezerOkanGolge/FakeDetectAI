@@ -3,7 +3,6 @@
 **Gerçek mi, sahte mi?**  
 Görüntü ve metin tabanlı içeriklerin doğruluğunu yapay zeka ile analiz eden web uygulaması.
 
-![fake-detect-banner](https://via.placeholder.com/800x250?text=Fake+Detect+AI)
 
 ---
 
@@ -146,5 +145,3 @@ Bu proje **Uludağ Üniversitesi Bilgisayar Mühendisliği** bölümü öğrenci
 - **Sarah Alayi** - Metin Analiz Açıklama Sistemini Geliştirme
 
 ---
-
-*Yapay zeka destekli sahtecilik tespiti için geliştirilmiş açık kaynak projesi.*
