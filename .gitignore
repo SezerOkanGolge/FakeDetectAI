@@ -1,12 +1,22 @@
+# Sanal ortamlar
 venv_img/
 venv_text/
+
+# Derleyici artıkları
 __pycache__/
 *.py[cod]
+*.so
+
+# Jupyter/IPython checkpointleri
 .ipynb_checkpoints/
+
+# Sistem dosyaları
 .DS_Store
+Thumbs.db
+
+# Log dosyaları
 *.log
-*.pth
-*.pkl
-backend_text/data/dataSet_EN.csv
-backend_text/data/dataSet_EN_cleaned.csv
-backend_text/distilBert_model/saved_model/model.safetensors
+
+# IDE klasörleri
+.vscode/
+.idea/
